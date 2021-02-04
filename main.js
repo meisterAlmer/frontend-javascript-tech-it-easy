@@ -1,14 +1,14 @@
 // VOORRAAD ARRAY MET TV'S
 const inventory = [
   {
-    type: '43PUS6504/12',
-    name: '4K TV',
-    brand: 'Philips',
+    type: "43PUS6504/12",
+    name: "4K TV",
+    brand: "Philips",
     price: 379,
     availableSizes: [43, 50, 58, 65],
     refreshRate: 50,
-    screenType: 'LED',
-    screenQuality: 'Ultra HD/4K',
+    screenType: "LED",
+    screenQuality: "Ultra HD/4K",
     smartTv: true,
     options: {
       wifi: true,
@@ -21,14 +21,14 @@ const inventory = [
     sold: 2,
   },
   {
-    type: 'NH3216SMART',
-    name: 'HD smart TV',
-    brand: 'Nikkei',
+    type: "NH3216SMART",
+    name: "HD smart TV",
+    brand: "Nikkei",
     price: 159,
     availableSizes: [32],
     refreshRate: 100,
-    screenType: 'LED',
-    screenQuality: 'HD ready',
+    screenType: "LED",
+    screenQuality: "HD ready",
     smartTv: true,
     options: {
       wifi: true,
@@ -41,14 +41,14 @@ const inventory = [
     sold: 4,
   },
   {
-    type: 'QE55Q60T',
-    name: '4K QLED TV',
-    brand: 'Samsung',
+    type: "QE55Q60T",
+    name: "4K QLED TV",
+    brand: "Samsung",
     price: 709,
     availableSizes: [43, 50, 55, 58, 65],
     refreshRate: 60,
-    screenType: 'QLED',
-    screenQuality: 'Ultra HD/4K',
+    screenType: "QLED",
+    screenQuality: "Ultra HD/4K",
     smartTv: true,
     options: {
       wifi: true,
@@ -61,14 +61,14 @@ const inventory = [
     sold: 0,
   },
   {
-    type: '43HAK6152',
-    name: 'Ultra HD SMART TV',
-    brand: 'Hitachi',
+    type: "43HAK6152",
+    name: "Ultra HD SMART TV",
+    brand: "Hitachi",
     price: 349,
     availableSizes: [43, 50, 55, 58],
     refreshRate: 60,
-    screenType: 'LCD',
-    screenQuality: 'Ultra HD/4K',
+    screenType: "LCD",
+    screenQuality: "Ultra HD/4K",
     smartTv: true,
     options: {
       wifi: true,
@@ -81,14 +81,14 @@ const inventory = [
     sold: 5,
   },
   {
-    type: '50PUS7304/12',
-    name: 'The One 4K TV',
-    brand: 'Philips',
+    type: "50PUS7304/12",
+    name: "The One 4K TV",
+    brand: "Philips",
     price: 479,
     availableSizes: [43, 50, 55, 58, 65, 70],
     refreshRate: 50,
-    screenType: 'LED',
-    screenQuality: 'Ultra HD/4K',
+    screenType: "LED",
+    screenQuality: "Ultra HD/4K",
     smartTv: true,
     options: {
       wifi: true,
@@ -101,14 +101,14 @@ const inventory = [
     sold: 3,
   },
   {
-    type: '55PUS7805',
-    name: '4K LED TV',
-    brand: 'Philips',
+    type: "55PUS7805",
+    name: "4K LED TV",
+    brand: "Philips",
     price: 689,
     availableSizes: [55],
     refreshRate: 100,
-    screenType: 'LED',
-    screenQuality: 'Ultra HD/4K',
+    screenType: "LED",
+    screenQuality: "Ultra HD/4K",
     smartTv: true,
     options: {
       wifi: true,
@@ -121,14 +121,14 @@ const inventory = [
     sold: 3,
   },
   {
-    type: 'B2450HD',
-    name: 'LED TV',
-    brand: 'Brandt',
+    type: "B2450HD",
+    name: "LED TV",
+    brand: "Brandt",
     price: 109,
     availableSizes: [24],
     refreshRate: 60,
-    screenType: 'LED',
-    screenQuality: 'Full HD',
+    screenType: "LED",
+    screenQuality: "Full HD",
     smartTv: false,
     options: {
       wifi: false,
@@ -141,14 +141,14 @@ const inventory = [
     sold: 8,
   },
   {
-    type: '32WL1A63DG',
-    name: 'HD TV',
-    brand: 'Toshiba',
+    type: "32WL1A63DG",
+    name: "HD TV",
+    brand: "Toshiba",
     price: 161,
     availableSizes: [32],
     refreshRate: 50,
-    screenType: 'LED',
-    screenQuality: 'Full HD',
+    screenType: "LED",
+    screenQuality: "Full HD",
     smartTv: false,
     options: {
       wifi: false,
@@ -161,3 +161,53 @@ const inventory = [
     sold: 8,
   },
 ];
+
+// Hoeveel televisies moeten we in totaal nog verkopen?
+
+// nog te verkopen: originalStock - sold
+
+// MAYBE filter?
+
+// NOPE find?
+
+// NOPE sort?
+
+// STRAT 1
+
+// map? -> voor de hele array
+
+// bereken per televisie type: hoevel nog te verkopen, met map
+
+// [{​​}​​, {​​}​​, {​​}​​] -> [21, 0, 7]
+
+// Alle getallen optellen in de array
+
+// for loop
+
+// STRAT 2
+
+// for loop?
+
+// loopen over alle televisies
+
+// tellen (variabele count aanmaken)
+
+// nog te verkopen: originalStock - sold
+
+// optellen bij het totaal
+
+// - [ ] functie maken
+
+// - [ ] aanroepen
+
+// - [ ] parameter toevoegen (inventory)
+
+// - [ ] inventory ingeven als argument
+
+// - [ ] count variabele (buiten de loop)
+
+// - [ ] loop maken (voor elke televisie)
+
+// - [ ] originalStock - sold optellen bij count
+
+// - [ ] Totaal return uit de functie
