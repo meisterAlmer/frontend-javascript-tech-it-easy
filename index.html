@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Tech It Easy Dashboard</title>
-</head>
-<body>
-
-</body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/tech_it_easy.png" class="logo" alt="Tech It" />
+      <h1>Dashboard</h1>
+    </header>
+    <main>
+      <div id="instock">
+        <p>Units still to sell:</p>
+      </div>
+      <div id="target-profit">
+        <p>Target profit:</p>
+      </div>
+      <div id="total-profit">
+        <p>Total profit:</p>
+      </div>
+      <div id="tv-names"></div>
+      <div id="buttons">
+        <button class="btn-price">Sorteer op prijs</button>
+        <button class="btn-ambilight">AmbiLight TV's</button>
+        <button class="btn-soldout">Uitverkochte exemplaren</button>
+      </div>
+      <div id="tv-items"></div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
 </html>
